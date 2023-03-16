@@ -1,0 +1,279 @@
+*{
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+/*
+.login-form {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color:#000;
+    border-radius: 40px  ;
+    color:aqua;
+  } 
+  .login-form h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .form-group label {
+    display: block;
+
+  }
+  
+  .form-group input[type=text],
+  .form-group input[type=password],
+  .form-group input[type=email] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 70px;
+    background-color:floralwhite;
+   
+
+  }
+  
+  .submit1 , .submit2 , .submit3 {
+    
+    margin-left:60px;
+    padding: 10px;
+    background-color:navy ;
+    color: wheat;
+    font-size: 30px;
+    border-radius: 50px;
+    
+  } */
+
+  
+
+
+
+
+.body{
+    background-color: rgb(89, 186, 193);
+}
+/* lonig page */
+.form_lonig{
+text-align: center;
+margin-top: 50px;
+font-size: larger;
+}
+.a_login{
+    background-color:dodgerblue;
+    color:wheat;
+    border-radius: 5px 5px;
+    font-size: 23px;
+}
+/* Contact Us */
+.img_contact{
+    width:50px;   
+    height:50px;
+    border-radius: 25px 25px;
+}
+.contact{
+    text-align: center;
+}
+.text_contact{
+   width: 450px;
+    height: 420px;
+
+}
+.but_contact{
+    margin-top: 10px;
+    width: 90px;
+    height: 30px;
+    background-color: rgb(76, 76, 151);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    font-size: 25px;
+}
+.but_contact:hover{
+    background-color: rebeccapurple;
+    color:cadetblue;
+    font-size: 26px;
+}
+
+
+/* Home Page */
+.body_home{
+background-color: rgb(0, 145, 255);
+}
+
+.nav_man ,.nav_home, .nav_login , .nav_contact{
+    color: #000;
+    background-color: aliceblue;
+  
+ }
+
+.a_nav_activ {
+    background-color: aqua;
+    color: rgb(9, 9, 9);
+    border-radius: 30px 30px;
+    font-size: 23px;
+    margin-left: 10px;
+    padding: 10px;
+
+}
+ .h1_home, .h3_home , .h4_home{
+    color: rgb(18, 18, 7);
+}
+.h3_home_bold{
+    color:black;
+    border:solid;
+    width: max-content;
+    background-color: aliceblue;
+    
+} 
+.home_prgraph{
+    width: 100%;
+}
+
+  
+/* women  */
+.body_women{
+    background-image: url("./img\ home/img(2).jpeg");
+
+}
+.video_women{
+    width: 80%;
+    height: 500px;
+}
+.h1_nav_women{
+    float: left;
+    width: 30%;
+    margin: 0%;
+    background-color: aqua;
+    color: rgb(9, 9, 9);
+    border-radius: 40px 40px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.a_choose{
+    background-color: rgb(111, 111, 124);
+    color: rgb(14, 13, 13);
+    border-radius: 30px   30px;
+    font-size:23px; 
+    padding: 10px;
+    margin-top: 25px;
+    width: 100%;
+    width: fit-content;
+    display: flex;
+}
+.a_choose:hover{
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    border-radius: 30px 30px;
+    font-size: 25px;
+}
+.nav_home ,.nav_women{
+    color: rgb(24, 222, 222);
+    font-size: larger;
+}
+
+
+.ul_nav{
+    text-align : center;
+    width: 100%;
+    display: inline-block;
+
+} 
+
+
+.li_nav{
+    float: left;
+}
+.a_nav{
+    background-color: rgb(111, 111, 124);
+    color: rgb(255, 255, 255);
+    border-radius: 30px 30px;
+    font-size:23px; 
+    padding: 10px;
+    margin-left: 10px;
+}
+
+
+
+ .a_nav:hover  {
+    background-color: aqua;
+    color: rgb(9, 9, 9);
+    border-radius: 30px 30px;
+    font-size: 23px;
+    margin-top: 8px;
+    
+}
+.h1_nav{
+    float: left;
+    width: 30%;
+    margin: 0%;
+    color: #000;
+    
+}
+
+.ul1{
+    display:flex;
+    width: 100%;
+}
+
+
+li2{
+  
+    display:flex;
+    text-align: center;
+
+}
+.h31 {
+
+    text-align: center;
+    color: rgb(15, 15, 15);
+    border-style: solid;
+    width:max-content;
+    background-color: bisque;
+
+}
+.h32{
+    text-align: center;    
+}
+
+
+.li1{
+    float: left;
+  text-align: center;
+  color: black;
+  width: 25%;
+
+  font-size: 25px; 
+}
+.img1{
+    width: 250;
+    height: 300;
+}
+
+ .but1  { 
+     margin-top: 10px;
+    margin-bottom: 2px;
+    width: 55%;
+    height: 30px;
+    background-color: rgb(76, 76, 151);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    font-size: 20px;
+}
+.but1:hover {
+    background-color: cornflowerblue;
+    color: rgb(255, 255, 255);
+    border-radius: 30px 30px;
+    font-size: 23px;
+    margin-top: 8px;
+    
+}
+.p1{
+    color: rgb(60, 59, 59);
+    margin: 0px;
+    padding: 0px;
+}
+ 
